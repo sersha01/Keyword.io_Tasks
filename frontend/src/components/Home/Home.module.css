@@ -1,0 +1,19 @@
+.cardText::-webkit-scrollbar {
+    display: none;
+  }
+  
+.cardText {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+    height: 100px;
+    overflow-y: scroll;
+  }
+
+.image {
+    max-width: 480px;
+    max-height: 300px;
+}
+
+.author {
+    font-size: 15px;
+}
